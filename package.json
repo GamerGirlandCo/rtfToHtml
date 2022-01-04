@@ -6,10 +6,11 @@
     "type": "git",
     "url": "git://github.com/GamerGirlandCo/rtfToHtml.git"
   },
-  "main": "./rtfToHtml.js",
+  "main": "./src/rtfToHtml.js",
   "author": {
     "name": "Hein Rutjes <hrutjes@gmail.com>"
   },
+  "type": "module",
   "description": "Parse RTF and write output as an HTML file",
   "keywords": [
     "rtf",
