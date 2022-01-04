@@ -1,10 +1,10 @@
 {
-  "name": "rtftohtml",
-  "version": "1.0.2",
-  "homepage": "https://github.com/IjzerenHein/rtfToHtml",
+  "name": "rtf-to-html",
+  "version": "1.0.3",
+  "homepage": "https://github.com/GamerGirlandCo/rtfToHtml",
   "repository": {
     "type": "git",
-    "url": "git://github.com/IjzerenHein/rtfToHtml.git"
+    "url": "git://github.com/GamerGirlandCo/rtfToHtml.git"
   },
   "main": "./rtfToHtml.js",
   "author": {
