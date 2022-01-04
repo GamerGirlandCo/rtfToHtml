@@ -1,4 +1,4 @@
-import {assert} from 'chai';
+const {assert} = require("chai")
 
 class StyleManager {
     constructor(content) {
@@ -365,7 +365,7 @@ function format(context, data, groupType) {
     return context.res;
 }
 
-export default function(parsedRtf, options) {
+module.exports = function(parsedRtf, options) {
     const res = [];
     const context = {
         res: res,
