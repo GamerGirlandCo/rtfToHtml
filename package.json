@@ -8,9 +8,9 @@
   },
   "main": "./src/rtfToHtml.js",
   "author": {
-    "name": "Hein Rutjes <hrutjes@gmail.com>"
+    "name": "The Tablet"
   },
-  "type": "module",
+	"type": "commonjs",
   "description": "Parse RTF and write output as an HTML file",
   "keywords": [
     "rtf",
@@ -22,10 +22,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/IjzerenHein/rtfToHtml/issues"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
+    "url": "https://github.com/GamerGirlandCo/rtfToHtml/issues"
   },
   "files": [
     "src",
@@ -45,8 +42,5 @@
     "babel": "^5.6.23",
     "chai": "^3.2.0",
     "commander": "^2.8.1"
-  },
-  "scripts": {
-    "rtfToHtml": "./node_modules/.bin/babel-node ./src/rtfToHtml.js"
   }
 }
